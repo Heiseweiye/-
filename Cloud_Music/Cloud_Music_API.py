@@ -94,3 +94,7 @@ def single_search(name):
     return song_name, song_id
 
 
+if __name__ == '__main__':
+    a = single_search("绿色")
+    print(a)
+
